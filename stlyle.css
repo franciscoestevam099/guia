@@ -5,16 +5,23 @@
 
 body {
     font-family: monospace;
-    background-color: black;
-    color: chartreuse;
+    background-color:rgb(245, 243, 243);
+    
 }
 
 .grupocomados {
     display: flex;
     margin-inline: 10px;
-    
+
 }
 
 .cartaocomado {
-   width: calc(25% - 15px);
+    width: calc(25% - 15px);
+    border: 1px solid #000000;
+    border-radius: 25px;
+    padding: 10px 5px;
+}
+
+.cartaocomado:hover{
+    scale: 102.5%;
 }
