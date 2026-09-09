@@ -1,9 +1,20 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
-    font-family: manospace;
-background-color: black;
-color: chartreuse;
+
+body {
+    font-family: monospace;
+    background-color: black;
+    color: chartreuse;
+}
+
+.grupocomados {
+    display: flex;
+    margin-inline: 10px;
+    
+}
+
+.cartaocomado {
+   width: calc(25% - 15px);
 }
