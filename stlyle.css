@@ -24,4 +24,5 @@ body {
 
 .cartaocomado:hover{
     scale: 102.5%;
+    transform: translatey(-8gi%);
 }
