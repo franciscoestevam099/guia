@@ -11,6 +11,7 @@ body {
 
 .grupocomados {
     display: flex;
+    flex-wrap: wrap;
     margin-inline: 10px;
 
 }
@@ -25,4 +26,4 @@ body {
 .cartaocomado:hover{
     scale: 102.5%;
     transform: translatey(-5%);
-}gi
+}
