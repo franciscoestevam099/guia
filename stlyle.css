@@ -5,7 +5,12 @@
 
 body {
     font-family: monospace;
-    background-color:rgb(245, 243, 243);
+    background-color:rgb(231, 197, 197);
+    display:  flex;
+    flex-direction: column;
+    margin-block: auto;
+    justify-content: center;
+    gap: 15px;
     
 }
 
@@ -18,7 +23,7 @@ body {
 
 .cartaocomado {
     width: calc(25% - 15px);
-    border: 1px solid #000000;
+    border: 1px solid #d29722;
     border-radius: 25px;
     padding: 20px 15px;
 }
