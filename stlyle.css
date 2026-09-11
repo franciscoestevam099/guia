@@ -7,7 +7,7 @@ header{
 }
 main{
     background-color: black;
-    color: white;
+    color: rgba(222, 186, 186, 0.762);
     height: 85vh;
     display: flex;
 }
