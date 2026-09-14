@@ -5,31 +5,14 @@
 header{
     height: 8vh;
 }
+
 main{
-    background-color: black;
-    color: rgba(222, 186, 186, 0.762);
-    height: 85vh;
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  alogn-items: center;
 }
 
-body {
-    font-family: monospace;
-    background-color:rgb(231, 197, 197);
-    display:  flex;
-    flex-direction: column;
-    margin-block: auto;
-    justify-content: center;
-    gap: 15px;
-    
-}
-
-.grupocomados {
-    display: flex;
-    flex-wrap: wrap;
-    margin-inline: 10px;
-
-}
-
+body 
 .cartaocomado {
     width: calc(25% - 15px);
     border: 1px solid #d29722;
