@@ -9,6 +9,7 @@ grupoComandos {
   gap: 25px;
 }
 
+
 header{
     height: 8vh;
 }
@@ -25,20 +26,25 @@ main{
   height: 20vh;
 }
 
+.cartaoComando {
+  border: 1px solid #ff0000;
+  border-color: #fafafa;
+  border-radius: 20px;
+  width: 85vw;
+  height: 20vh;
+}
+
+
 .cente{
     display: flex;
 }
 
-body 
-
-.cartaocomado {
-    width: calc(25% - 15px);
-    border: 1px solid #282e11;
-    border-radius: 25px;
-    padding: 20px 15px;
-
+.grupoComandos {
+ display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-
+    
     .cartaocomado:hover{
     scale: 102.5%;
     transform: translatey(-5%);
@@ -50,4 +56,27 @@ body
 }
 
 
+
+    @media only script and (min-width: 600px){
+body{
+ font-size: x-large;
+}
+
+}
   
+@media only screen and ( min-width:760px) {
+    .cartaocomado{
+        flex-direction: row ;
+        flex-wrap: wrap;
+    }
+}
+
+.cartaocomado{
+    width: calc(50vw- 30px);
+}
+
+.icone{
+    height: 40px;
+    width: 40px;
+}
+
