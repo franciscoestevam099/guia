@@ -2,6 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+
+grupoComandos {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
 header{
     height: 8vh;
 }
@@ -9,18 +16,35 @@ header{
 main{
   display: flex;
   flex-direction: column;
-  alogn-items: center;
+  align-items: center;
+}
+.cente{
+    display: flex;
 }
 
 body 
+
 .cartaocomado {
     width: calc(25% - 15px);
-    border: 1px solid #d29722;
+    border: 1px solid #282e11;
     border-radius: 25px;
     padding: 20px 15px;
 }
+@media screen and (min-width: 768px) {
+  .grupoComandos 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
-.cartaocomado:hover{
+    .cartaocomado:hover{
     scale: 102.5%;
     transform: translatey(-5%);
 }
+
+.cartaocomado{
+    border: 1px solid #972d2d;
+    border-radius: 20px;
+}
+
+
+  
